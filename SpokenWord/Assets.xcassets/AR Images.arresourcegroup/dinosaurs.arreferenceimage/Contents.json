@@ -1,0 +1,16 @@
+{
+  "images" : [
+    {
+      "filename" : "dinosaurs.jpg",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  },
+  "properties" : {
+    "unit" : "centimeters",
+    "width" : 10.541
+  }
+}
