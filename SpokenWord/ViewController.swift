@@ -25,6 +25,7 @@ public class ViewController: UIViewController, SFSpeechRecognizerDelegate, ARSCN
     private var recognitionTask: SFSpeechRecognitionTask?
     
     private let audioEngine = AVAudioEngine()
+	let canvas = Canvas()
 	
     //Two TextView on the top, one for input, the other for respond
     @IBOutlet var textView: UITextView!
@@ -69,7 +70,11 @@ public class ViewController: UIViewController, SFSpeechRecognizerDelegate, ARSCN
         sceneView.scene = scene
 		//Initilize the lastDetectionStartTime
 		lastDetectionStartTime = Date()
-
+				
+		sceneView.addSubview(canvas)
+		
+		canvas.backgroundColor = UIColor.clear
+	    canvas.frame = view.frame
         // Disable the record buttons until authorization has been granted.
         recordButton.isEnabled = false
     }
@@ -99,6 +104,7 @@ public class ViewController: UIViewController, SFSpeechRecognizerDelegate, ARSCN
     }
 	
 	
+
 	public func renderer(_ renderer: SCNSceneRenderer, didAdd node: SCNNode, for anchor: ARAnchor) {
 		guard let imageAnchor = anchor as? ARImageAnchor else { return }
 		let referenceImage = imageAnchor.referenceImage

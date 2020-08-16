@@ -15,6 +15,8 @@
 		738998C021515C9A00E378D8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 738998BE21515C9A00E378D8 /* LaunchScreen.storyboard */; };
 		E11C665B24C0A64E004E2B9A /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = E11C665A24C0A64E004E2B9A /* art.scnassets */; };
 		E1ABAEC424D840A3004C7E8E /* LatencyTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1ABAEC324D840A3004C7E8E /* LatencyTest.swift */; };
+		E1EA6D8B24E8D14E00E250CA /* canvas.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1EA6D8A24E8D14E00E250CA /* canvas.swift */; };
+		E1EA6D8D24E8D28C00E250CA /* Controller in Resources */ = {isa = PBXBuildFile; fileRef = E1EA6D8C24E8D28B00E250CA /* Controller */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		A1D45270A1D47E7000000001 /* SampleCode.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = SampleCode.xcconfig; path = Configuration/SampleCode.xcconfig; sourceTree = "<group>"; };
 		E11C665A24C0A64E004E2B9A /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
 		E1ABAEC324D840A3004C7E8E /* LatencyTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LatencyTest.swift; sourceTree = "<group>"; };
+		E1EA6D8A24E8D14E00E250CA /* canvas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = canvas.swift; sourceTree = "<group>"; };
+		E1EA6D8C24E8D28B00E250CA /* Controller */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Controller; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +101,8 @@
 			isa = PBXGroup;
 			children = (
 				E1ABAEC324D840A3004C7E8E /* LatencyTest.swift */,
+				E1EA6D8A24E8D14E00E250CA /* canvas.swift */,
+				E1EA6D8C24E8D28B00E250CA /* Controller */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -162,6 +168,7 @@
 			files = (
 				738998C021515C9A00E378D8 /* LaunchScreen.storyboard in Resources */,
 				738998BD21515C9A00E378D8 /* Assets.xcassets in Resources */,
+				E1EA6D8D24E8D28C00E250CA /* Controller in Resources */,
 				E11C665B24C0A64E004E2B9A /* art.scnassets in Resources */,
 				736165992176725C0062D377 /* README.md in Resources */,
 				738998BB21515C9900E378D8 /* Main.storyboard in Resources */,
@@ -178,6 +185,7 @@
 				738998B821515C9900E378D8 /* ViewController.swift in Sources */,
 				738998B621515C9900E378D8 /* AppDelegate.swift in Sources */,
 				E1ABAEC424D840A3004C7E8E /* LatencyTest.swift in Sources */,
+				E1EA6D8B24E8D14E00E250CA /* canvas.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
